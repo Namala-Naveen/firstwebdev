@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    font-family: montserrat;
+    padding: 0;
+    margin: 0;
+    background: url(nitw.jpg)no-repeat;
+    background-size: 1500px 1000px;
+    background-origin: content-box;
+    background-position: center;
+}
+.form{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: white;
+    opacity: 99%;
+    max-width: 260px;
+    margin: 200px auto 100px;
+    padding: 5px 45px 30px 45px;
+    text-align: center;
+    /* box-shadow: 0 0 20px 0 rgba(0,0, 0, 0.2),0 5px 5px 0 rgba(0,0,0,0.24); */
+    border-radius: 10px;
+    position: relative;
+    /* left: 80px; */
+    top: 240px;
+    /* bottom: 14px;. */
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+    top:1%;
+    left:0.3%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.nav{
+    background-color: rgba(79, 31, 192, 0.598);
+    height: 50px;
+}
+li{
+    list-style: none;
+    margin-right: 200px;
+    display: inline-block;
+    color: white;
+    padding-top: 14px;
+    font-size: 20px;
+}
+.form{
+    padding:2em;
+    position: relative;
+    top:170px;
+}
+.form p{
+    font-size: 15px;
+    padding: 1px;
+    text-align: center;
+}
+.form input{
+    outline: 0;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form input:hover{
+    background-color: #D3F8F9;
+    transition: all is ease 0s;
+}
+.form input:focus{
+    background-color: #D3F8F9;
+    transition: all ia ease 0s;
+}
+.form button{
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 10px;
+    background: #1adbe5;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.form button:hover, .formbutton:active, .form button:focus{
+    background-color: #06c5cf;
+    transition: all is ease 0s;
+}
+.form .message{
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a{
+    color: #06c5cf;
+    text-decoration: none;
+}
+.wsdc{
+    position: relative;
+    left: 20px;
+    bottom: 190px;
+}
